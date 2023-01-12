@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+h1 {
+ font-family: 'Tangerine', serif;
+ font-size: 50px;
+ font-weight: normal;
+    font-style: normal;
+    line-height: 0em;
+    color: #322d25;
+}
+
+.headerimg {
+  background-image: url("billeder/forsidebillede.png");
+  min-height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+}
+.logoimg {
+  width: 100px;
+  float: left;
+
+}
+
+.logo{
+  float: left;
+}
+
+.menu {
+  background-color: #ff0000;
+  height: 100px;
+}
+.menulink {
+  margin: 0;
+  padding-top: 35px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.menulink a{
+  display: inline;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.menulink a:hover{
+  text-decoration: underline;
+}
+.menulink a:active{
+  text-decoration: none;
+}
+
+.footer {
+  display: flex;
+  padding: 20px;
+  text-align: center;
+  height: 120px;
+  background-color: #ff0000;
+}
+
+.footer > *{
+  flex-basis: 100%;
+
+}
+
+@media screen and (min-width: 550px) {
+      body {
+          font-size: 14px;
+      }
+
+
+}
